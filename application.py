@@ -62,6 +62,13 @@ def getUrl(urlHash):
         KeyConditionExpression=Key('url_hash').eq(urlHash)
     )
 
+    if len(response['Items']) < 1:
+        res = {
+            'message': 'No URL found for given hash'
+        }
+
+        return jsonify(res), 400
+
     url = response['Items'][0]['url']
 
     return redirect(url, code=302)
