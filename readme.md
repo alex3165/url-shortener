@@ -6,6 +6,8 @@ It is also possible to deploy the app with Elastic Beanstalk which will create a
 
 DynamoDB is a NoSQL database, it is fully managed by AWS and scale on demand. You can manually increase read and write capacity unit and / or turn on / off auto scaling for dynamoDB too.
 
+In order to scale both the service and the DB we could put a cache in front of the EC2 instances has the service is indempotant it would be good candidate for that
+
 What is left to do:
 
 - Write a script running on a CRON task to remove all url saved in database for more than 2 days using `created_at` field
