@@ -1,4 +1,4 @@
-# Url shortener (Babylon, Fullstack challenge)
+# Url shortener
 
 This web service can be deployed to one or many AWS EC2 instance using aws cli on the local machine or from any CI. The service is completely standalone (including it's own dynamoDB) and could also be deployed to many EC2 instances with a load balancer.
 
