@@ -50,7 +50,7 @@ python-dotenv==0.9.1
 pytz==2018.3
 PyYAML==3.13
 requests==2.18.4
-rsa==3.4.2
+rsa==4.7
 s3transfer==0.1.13
 semantic-version==2.5.0
 six==1.11.0
