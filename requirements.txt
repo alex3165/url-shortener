@@ -38,7 +38,7 @@ MarkupSafe==1.0
 matplotlib==2.2.0
 mccabe==0.6.1
 nbformat==4.4.0
-numpy==1.14.2
+numpy==1.22.0
 pathspec==0.5.5
 plotly==2.5.0
 pyasn1==0.4.2
